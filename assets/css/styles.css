@@ -338,7 +338,7 @@ img{
 }
 .contact__text{
     display: inline-block;
-    margin-bottom: var(--mb-2);
+    margin-bottom: var(--mb-);
 }
 .contact__inputs{
     display: grid;
@@ -349,7 +349,7 @@ img{
     width: 100%;
     padding: .8rem;
     outline: none;
-    border: 1.5px solid var(--dark-color);
+    border: 2.3px solid var(--dark-color);
     font-size: var(--normal-font-size);
     margin-bottom: var(--mb-4);
     border-radius: .5rem;
@@ -470,7 +470,7 @@ img{
     }
 
     .contact__container{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2 , 1fr);
         justify-items: center;
     }
     .contact__form{
