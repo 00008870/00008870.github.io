@@ -25,27 +25,28 @@
 }
 @media screen and (min-width: 768px){
     :root{
-        --body-font: 'Monsterrat', sans-serif;
-        --small-font-size: 0.9rem;
-        --normal-font-size: 1rem;
-        --big-font-size: 10rem;
+        --big-font-size: 10.5rem;
         --h2-font-size: 2rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+    }
 }
 
 /*Margin*/
 :root{
-    --mb-1: 0.5rem;
+    --mb-1: .5rem;
     --mb-2: 1rem;
     --mb-3: 1.5rem;
     --mb-4: 2rem;
 }
+
 /*index*/
 :root{
     --z-fixed: 100;
 }
 
 /*Body*/
-,::before,::after{
+*,::before,::after{
     box-sizing: border-box;
 }
 html{
@@ -57,9 +58,9 @@ body{
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     color: var(--text-color);
-    line-height: 1.5;
+    line-height: 1.6;
 }
-h1, h2, p{
+h1,h2,p{
     margin: 0;
 }
 ul{
@@ -75,4 +76,27 @@ img{
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+/*CSS Class*/
+.section{
+    padding: 3rem 0;
+}
+.section-title{
+    position: relative;
+    font-size: var(--h2-font-size);
+    color: var(--dark-color);
+    margin: var(--mb-4) 0;
+    text-align: center;
+}
+.section-title::after{
+    position: absolute;
+    content: "";
+    width: 32px;
+    height: .18rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 2rem;
+    background-color: var(--first-color);
 }
