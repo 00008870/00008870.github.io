@@ -1,11 +1,13 @@
 /*GOOGLE FONTS*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
 
-/*===== VARIABLES CSS =====*/
+
+/*VARIABLES CSS*/
 :root{
     --header-height: 3rem;
     --font-medium: 500;
 }
+
 
 /*COLORS*/
 :root{
@@ -15,6 +17,7 @@
     --text-color:  #697477;
 }
 
+
 /*TYPOGRAPHY*/
 :root{
     --body-font: 'Montserrat', sans-serif;
@@ -23,6 +26,7 @@
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
 }
+
 @media screen and (min-width: 768px){
     :root{
         --big-font-size: 10.5rem;
@@ -32,6 +36,7 @@
     }
 }
 
+
 /*MARGINS*/
 :root{
     --mb-1: .5rem;
@@ -40,10 +45,12 @@
     --mb-4: 2rem;
 }
 
+
 /*Z INDEX*/
 :root{
     --z-fixed: 100;
 }
+
 
 /*BODY*/
 *,::before,::after{
@@ -78,6 +85,7 @@ img{
     display: block;
 }
 
+
 /*CSS CLASS*/
 .section{
     padding: 3rem 0;
@@ -101,6 +109,7 @@ img{
     background-color: var(--first-color);
 }
 
+
 /*LAYOUT*/
 .bd-grid{
     max-width: 1024px;
@@ -120,6 +129,7 @@ img{
     background-color: var(--first-color);
 }
 
+
 /*NAVIGATION*/
 .nav{
     height: var(--header-height);
@@ -127,6 +137,7 @@ img{
     justify-content: space-between;
     align-items: center;
 }
+
 @media screen and (max-width: 768px){
     .nav__menu{
         position: fixed;
@@ -159,10 +170,12 @@ img{
     cursor: pointer;
 }
 
+
 /*MENU*/
 .show{
     right: 0;
 }
+
 
 /*ACTIVE*/
 .active::after{
@@ -174,6 +187,7 @@ img{
     top: 2rem;
     background-color: var(--first-color);
 }
+
 
 /*HOME*/
 .home{
@@ -210,7 +224,8 @@ img{
     width: 295px;
 }
 
-/*About*/
+
+/*ABOUT*/
 .about__container{
     justify-items: center;
     row-gap: 2rem;
@@ -249,6 +264,7 @@ img{
     color: var(--first-color);
 }
 
+
 /*SKILLS*/
 .skills__container{
     row-gap: 2rem;
@@ -274,7 +290,8 @@ img{
     border-radius: .5rem;
 }
 
-/* ===== PORTFOLIO =====*/
+
+/*PORTFOLIO*/
 .portfolio{
     background-color: var(--white-color);
 }
@@ -309,6 +326,7 @@ img{
 .portfolio__link-name{
     color: var(--dark-color);
 }
+
 
 /*CONTACT*/
 .contact__container{
@@ -349,6 +367,7 @@ img{
     cursor: pointer;
 }
 
+
 /*FOOTER*/
 .footer{
     background-color: var(--dark-color);
@@ -374,6 +393,7 @@ img{
 .footer__social:hover{
     color: var(--first-color);
 }
+
 
 /*FINAL FIX*/
 @media screen and (min-width: 768px){
