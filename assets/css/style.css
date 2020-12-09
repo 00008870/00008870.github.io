@@ -17,7 +17,7 @@
 
 /*Topography*/
 :root{
-    --body-font: 'Monsterrat', sans-serif;
+    --body-font: 'Montserrat', sans-serif;
     --small-font-size: 0.8rem;
     --normal-font-size: 0.915rem;
     --big-font-size: 6rem;
@@ -42,4 +42,37 @@
 /*index*/
 :root{
     --z-fixed: 100;
+}
+
+/*Body*/
+,::before,::after{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: var(--header-height) 0 0 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    color: var(--text-color);
+    line-height: 1.5;
+}
+h1, h2, p{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: 0;
+}
+a{
+    text-decoration: 0;
+    color: var(--text-color);
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
