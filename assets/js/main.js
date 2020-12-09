@@ -20,6 +20,7 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
+/*ACTIVE SCROLL*/
 const sections = document.querySelectorAll('section[id]')
 
 window.addEventListener('scroll', scrollActive)
