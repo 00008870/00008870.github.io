@@ -65,10 +65,10 @@ h1, h2, p{
 ul{
     margin: 0;
     padding: 0;
-    list-style: 0;
+    list-style: none;
 }
 a{
-    text-decoration: 0;
+    text-decoration: none;
     color: var(--text-color);
 }
 img{
