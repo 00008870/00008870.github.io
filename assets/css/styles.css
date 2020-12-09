@@ -138,7 +138,7 @@ img{
     align-items: center;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 720px){
     .nav__menu{
         position: fixed;
         top: var(--header-height);
@@ -407,7 +407,7 @@ img{
 
 
 /*FINAL FIX*/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 720px){
     body{
         margin: 0;
     }
