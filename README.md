@@ -1,2 +1,2 @@
 # Web-Technology
-Web Technology with Bunyod Khoshimkhujaev
+Web Technology with Bunyod Khoshimkhujaev in HTML
